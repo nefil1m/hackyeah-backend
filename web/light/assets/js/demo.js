@@ -499,7 +499,7 @@ demo = {
         // To add the marker to the map, call setMap();
         marker.setMap(map);
     },
-
+/*
     showNotification: function(from, align) {
         color = Math.floor((Math.random() * 4) + 1);
 
@@ -516,7 +516,7 @@ demo = {
             }
         });
     }
-
+*/
 
 
 }
