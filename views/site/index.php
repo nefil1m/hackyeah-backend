@@ -51,13 +51,33 @@ $this->title = 'My Yii Application';
             <div class="col-lg-6">
                 <h2>Map</h2>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+                <p>
+                <div id="map" style="height: 400px"></div>
+                <script>
+					var map;
+					function initMap() {
+						map = new google.maps.Map(document.getElementById('map'), {
+						//	center: {lat: -34.397, lng: 150.644},
+							center: {lat: 52.1075441,  lng:20.8323787},
+							zoom: 16
+						});
+					}
+                </script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDvhjHWiag5pJsLYhctwdD044pAOl5pKpE&callback=initMap"
+                        async defer></script></p>
             </div>
 
         </div>
 
     </div>
 </div>
+<style>
+    .row{
+        overflow: hidden;
+    }
+
+    [class*="col-"]{
+        margin-bottom: -99999px;
+        padding-bottom: 99999px;
+    }
+</style>
