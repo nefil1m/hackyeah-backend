@@ -13,6 +13,7 @@ use app\models\ContactForm;
 class SiteController extends Controller
 {
     public $layout = 'light';
+
     /**
      * {@inheritdoc}
      */
@@ -128,13 +129,10 @@ class SiteController extends Controller
         ]);
     }
 
-    /**
-     * Displays about page.
-     *
-     * @return string
-     */
-    public function actionAbout()
+    public function actionIsLogged()
     {
-        return $this->render('about');
+        $this->asJson([
+            'auth' => !Yii::$app->getUser()->isGuest,
+        ]);
     }
 }
