@@ -66,7 +66,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="nav-link" href="/site/rewards">
+                    <a class="nav-link" href="/site/awarness">
                         <i class="nc-icon nc-paper-2"></i>
                         <p>Rewards</p>
                     </a>
