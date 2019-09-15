@@ -144,12 +144,7 @@ class SiteController extends Controller
         $model = new UploadForm();
 
         if (Yii::$app->request->isPost) {
-            $model->file = UploadedFile::getInstance($model, 'file');
-
-            if ($model->file && $model->validate()) {
-                $this->redirect(['site/profile', ]);
-
-            }
+            $this->redirect(['site/profile',]);
         }
 
         return $this->render('scan', ['model' => $model]);
@@ -158,6 +153,12 @@ class SiteController extends Controller
     public function actionProfile()
     {
         return $this->render('profile');
+    }
+
+    public function actionPromotions()
+    {
+        return $this->renderContent('<img src="/light/coconut_1f965.png">');
+
     }
 
 }

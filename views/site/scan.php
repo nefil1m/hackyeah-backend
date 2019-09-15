@@ -6,12 +6,15 @@ use yii\widgets\ActiveForm;
 
 <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]) ?>
 
-    <div class="row">
-        <h2>Scan QR code to get user profile</h2>
-        <div class="clearfix"></div>
+
+    <div class="card" style="">
+        <div class="card-body">
+            <h5 class="card-title">QR Scanning</h5>
+            <p class="card-text">Scan QR code to get user profile</p>
+            <input type="file">
+            <hr/>
+            <button  type="submit" class="btn btn-info btn-fill">Send</button>
+        </div>
     </div>
-    <div class="row">
-        <?= $form->field($model, 'file')->fileInput(['class' => '']) ?>
-        <button class="btn btn-info btn-fill">Send</button>
-    </div>
+
 <?php ActiveForm::end() ?>
