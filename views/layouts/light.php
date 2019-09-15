@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <link rel="apple-touch-icon" sizes="76x76" href="/light/assets/img/apple-icon.png">
-    <link rel="icon" type="image/png" href="/light/assets/img/favicon.ico">
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAhCAYAAAC4JqlRAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4wkPBDsENaEyVgAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAEkElEQVRYw+1XW0hUbRRd54yGiGGlMhgZKiIlGAzzJuKjD4mFDz4GibeGcKISSYkYUATxRvTQiOSANxCCUEQfVBAZEO9JojWkBMKYODrlyZlzxjPf+h/K6Z+sv4ysh7/1dGBvzrf2t9e+fBJJ4g9Cxh/GHycQEQwGIUkSSEKSJMjy7+UkS5L08UOW8f79e4yMjEDXdQDA75CHJITgQfQPHjyAEAKnT59GXl4eLl68+Hs0IMsy+vr6EBcXh9raWmRlZaG3txednZ3Hn4NgMMjNzU3W1dXR6/VSCEEhBPf29mi322mxWLi+vs5fiZ2dHeq6TiEEoWkaR0dH6XK5GAwGQ06fUsPZ2VneuHGDo6Oj9Pv9P3WgEIKqqlLTNJJkf38/6+vrSZKyqqoYHh6G2+0OF8enyjCbzaitrYXT6URzczNcLtfRhSZJmJ6eRltbGwDgypUrWF1dhdvthhwTE4OioiIsLi7C4XBAUZRDJOLj43H+/HlERkair68P3d3dEEIciUR2djampqbg9/sBABcuXMDq6ipkXdeRnp6O8vJyJCYmwmq1Ym5uLlSGkiTh5cuXcLlcuHnzJioqKqAoCqqqqrC9vf3D5SpJEgKBACIjIwEAHo8HsbGxgKqqDAQCoZyvr6/TarWyp6eHHz58oM/nY2NjI6enp0M+JDk+Ps5r165xZGSE+/v739VBa2srHz9+TJJcW1tjSUkJSVLSdZ0AYDAYQmxVVYXD4cDW1hbS0tKwvb0Ni8WCiIiIsKh2dnbQ3t6OEydOID8/H2lpaV+N3uPx4P79+7Db7djd3UVLSwvy8/NhNpshGwyGsMMBICoqChaLBQUFBVhZWYHX64WmaYeu+8yZM6isrITJZEJHRwd6enq+Veqhq3/9+jUSExNhMpm+P4wyMzNRXV2NzMxM3LlzB69evcJB6w51MllGTk4OampqsLu7i1u3buHt27dhPkajEadOncLk5CR8Ph/i4+M//+dHa3llZYXXr19nV1cXfT7fN/0mJiZYXl5Op9NJVVUP2ScnJ9nZ2Uld1z9q4CgLia7rePLkCTY3N5GXlwez2RxmP6gat9uN9vZ2xMbG4urVq0hJSQnZNjY20NbWBovFAqPRCOlnNqLnz59jcHAQJ0+eRGlpKaKjo79K1ul0YmxsDJcuXUJhYWHINjMzg9TUVMTFxf14Cr6Eqqp8+vQpS0pKuLS0FNa+/w2Px8PW1lbeu3eP7969O+RnsNlstp8ZYgaDARkZGcjIyMCjR48QCASQnJwcUvsBoqOjsba2BkVR0Nvbi4SEBCQlJR1dhP8FRVH48OFD1tXVcX5+Psy2vLxMm81Gv9/PjY0NFhcXc2ZmJmT/JftXTEwMrFYrLl++jKGhIdjtdmiaBpJ49uwZcnNzERUVBa/Xi7NnzyI9Pf1zi/7Va/ne3h4GBgbgdDphMpmgKApu374NIQTKyspw9+7d8E2Lx4QXL16wqKiIXV1dDAaDbGpqosPhOOQnHefDRNM0dHR04M2bNwCAhoaGUD84thR8CSEEFhYWcO7cORiNxsNj+u/T7C+B/z2BfwBmwKlNZZEGUgAAAABJRU5ErkJggg==
+">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title></title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
@@ -37,12 +38,12 @@
         <div class="sidebar-wrapper">
             <div class="logo">
                 <a href="https://www.creative-tim.com" class="simple-text">
-                    BUTTS
+                    ButtsPoint
                 </a>
             </div>
             <ul class="nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/">
+                    <a class="nav-link" href="/site/">
                         <i class="nc-icon nc-chart-pie-35"></i>
                         <p>Dashboard</p>
                     </a>
@@ -241,8 +242,7 @@
         <!-- End Navbar -->
         <div class="content">
             <div class="container-fluid">
-
-
+                <?= $content ?>
             </div>
         </div>
         <footer class="footer">
@@ -286,18 +286,15 @@
 <script src="/light/assets/js/core/bootstrap.min.js" type="text/javascript"></script>
 <!--  Plugin for Switches, full documentation here: https://www.jque.re/plugins/version3/bootstrap.switch/ -->
 <script src="/light/assets/js/plugins/bootstrap-switch.js"></script>
-<!--  Google Maps Plugin    -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2Yno10-YTnLjjn_Vtk0V8cdcY5lC4plU"></script>
+
 <!--  Chartist Plugin  -->
 <script src="/light/assets/js/plugins/chartist.min.js"></script>
-<!--  Share Plugin -->
-<script src="/light/assets/js/plugins/jquery.sharrre.js"></script>
+
 <!--  Notifications Plugin    -->
 <script src="/light/assets/js/plugins/bootstrap-notify.js"></script>
 <!-- Control Center for Light Bootstrap Dashboard: scripts for the example pages etc -->
 <script src="/light/assets/js/light-bootstrap-dashboard.js?v=2.0.1" type="text/javascript"></script>
 <!-- Light Bootstrap Dashboard DEMO methods, don't include it in your project! -->
-<script src="/light/assets/js/demo.js"></script>
 
 
 </html>
