@@ -11,7 +11,7 @@ use yii\widgets\ActiveForm;
         <div class="card-body">
             <h5 class="card-title">QR Scanning</h5>
             <p class="card-text">Scan QR code to get user profile</p>
-            <input type="file">
+            <div>Open camera</div>
             <hr/>
             <button  type="submit" class="btn btn-info btn-fill">Send</button>
         </div>
