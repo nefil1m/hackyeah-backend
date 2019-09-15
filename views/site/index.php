@@ -9,7 +9,7 @@ $this->title = 'Butt points';
 
 <div class="row">
     <div class="col-lg-12 d-block d-sm-none">
-        <h2>Yout ID</h2>
+        <h2>Your ID</h2>
         <p><?= Html::img(['qr/qr']) ?></p>
     </div>
     <div class="col-lg-12">
