@@ -47,37 +47,37 @@
                 </a>
             </div>
             <ul class="nav">
-                <li class="nav-item active">
+                <li class="nav-item <?= $this->context->action->id == 'index' ? 'active' : '' ?>">
                     <a class="nav-link" href="/site/">
                         <i class="nc-icon nc-chart-pie-35"></i>
                         <p>Dashboard</p>
                     </a>
                 </li>
-                <li>
+                <li class="nav-item <?= $this->context->action->id == 'education' ? 'active' : '' ?>">
                     <a class="nav-link" href="/site/education">
                         <i class="nc-icon nc-circle-09"></i>
                         <p>Education</p>
                     </a>
                 </li>
-                <li>
+                <li class="nav-item <?= $this->context->action->id == 'buttpoints' ? 'active' : '' ?>">
                     <a class="nav-link" href="/site/buttpoints">
                         <i class="nc-icon nc-notes"></i>
                         <p>Buttpoints</p>
                     </a>
                 </li>
-                <li>
-                    <a class="nav-link" href="/site/awarness">
+                <li class="nav-item <?= $this->context->action->id == 'rewards' ? 'active' : '' ?>">
+                    <a class="nav-link" href="/site/rewards">
                         <i class="nc-icon nc-paper-2"></i>
                         <p>Rewards</p>
                     </a>
                 </li>
-                <li>
+                <li class="nav-item <?= $this->context->action->id == 'awarness' ? 'active' : '' ?>">
                     <a class="nav-link" href="/site/awarness">
                         <i class="nc-icon nc-pin-3"></i>
                         <p>Awareness</p>
                     </a>
                 </li>
-                <li class="nav-item active active-pro">
+                <li class="nav-item active-pro <?= $this->context->action->id == 'scan' ? 'active' : '' ?>"">
                     <a class="nav-link active" href="/site/scan/">
                         <i class="nc-icon nc-alien-33"></i>
                         <p>SCAN QR</p>

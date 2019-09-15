@@ -163,7 +163,13 @@ class SiteController extends Controller
     public function actionAwarness()
     {
         return $this->renderContent('<img src="/light/coconut_1f965.png">');
-
     }
 
+    public function actionEducation() {
+        return $this->render('education');
+    }
+
+    public function actionRewards() {
+        return $this->render('education');
+    }
 }
