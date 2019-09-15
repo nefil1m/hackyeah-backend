@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\UploadForm;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -9,6 +10,8 @@ use yii\web\Response;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
+use yii\web\UploadedFile;
+use Zxing\QrReader;
 
 class SiteController extends Controller
 {
@@ -135,4 +138,26 @@ class SiteController extends Controller
             'auth' => !Yii::$app->getUser()->isGuest,
         ]);
     }
+
+    public function actionScan()
+    {
+        $model = new UploadForm();
+
+        if (Yii::$app->request->isPost) {
+            $model->file = UploadedFile::getInstance($model, 'file');
+
+            if ($model->file && $model->validate()) {
+                $this->redirect(['site/profile', ]);
+
+            }
+        }
+
+        return $this->render('scan', ['model' => $model]);
+    }
+
+    public function actionProfile()
+    {
+        return $this->render('profile');
+    }
+
 }
