@@ -32,17 +32,12 @@
 </head>
 
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <div class="wrapper">
     <div class="sidebar" data-image="/light/assets/img/sidebar-5.jpg">
         <div class="sidebar-wrapper">
             <div class="logo">
-                <a href="https://www.creative-tim.com" class="simple-text">
+                <a href="/site/" class="simple-text">
                     ButtsPoint
                 </a>
             </div>

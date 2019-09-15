@@ -162,6 +162,11 @@ class SiteController extends Controller
 
     public function actionAwarness()
     {
+        return $this->render('education');
+    }
+
+
+    public function actionRewards() {
         return $this->renderContent('<img src="/light/coconut_1f965.png">');
     }
 
@@ -169,7 +174,4 @@ class SiteController extends Controller
         return $this->render('education');
     }
 
-    public function actionRewards() {
-        return $this->render('education');
-    }
 }
