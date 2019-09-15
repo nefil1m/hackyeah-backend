@@ -60,7 +60,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="nav-link" href="./site/buttpoints">
+                    <a class="nav-link" href="/site/buttpoints">
                         <i class="nc-icon nc-notes"></i>
                         <p>Buttpoints</p>
                     </a>
