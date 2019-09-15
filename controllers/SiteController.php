@@ -155,6 +155,11 @@ class SiteController extends Controller
         return $this->render('profile');
     }
 
+    public function actionButtpoints()
+    {
+        return $this->render('buttpoints');
+    }
+
     public function actionAwarness()
     {
         return $this->renderContent('<img src="/light/coconut_1f965.png">');
