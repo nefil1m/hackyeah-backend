@@ -1,4 +1,6 @@
-<div class="card col-6">
+<?php $this->title = 'Education' ?>
+
+<div class="card col-lh-6">
     <div class="card-header ">
         <h4 class="card-title">COLLECT RECYCLABLE MATERIAL, SAVE THE ENVIRONMENT… AND EARN!</h4>
         <p class="card-category">But first...Education.
@@ -21,7 +23,7 @@
 </div>
 
 
-<div class="card col-6">
+<div class="card col-lh-6">
     <div class="card-header ">
         <h4 class="card-title">Why The Effort?
         </h4>
@@ -46,7 +48,7 @@
 </div>
 
 
-<div class="card col-6">
+<div class="card col-lh-6">
     <div class="card-header ">
         <h4 class="card-title">How Can I Help?
 
@@ -69,7 +71,7 @@
 
 
 
-<div class="card col-6">
+<div class="card col-lh-6">
     <div class="card-header ">
         <h4 class="card-title">What Do I Have To Do?
 

@@ -1,3 +1,5 @@
+<?php $this->title = 'Buttpoints' ?>
+
 <div class="card card-fluid">
     <!-- .card-body -->
     <div class="card-body pb-0">

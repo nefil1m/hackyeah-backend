@@ -1,7 +1,7 @@
 <?php
 
 use yii\widgets\ActiveForm;
-
+$this->title = 'Scanning';
 ?>
 
 <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]) ?>

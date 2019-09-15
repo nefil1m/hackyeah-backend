@@ -1,7 +1,7 @@
 <?php
 
 use yii\widgets\ActiveForm;
-
+$this->title = 'Profile';
 ?>
 
 <div class="card card-user">

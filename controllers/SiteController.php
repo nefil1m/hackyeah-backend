@@ -167,6 +167,7 @@ class SiteController extends Controller
 
 
     public function actionRewards() {
+        $this->view->title = 'Rewards';
         return $this->renderContent('<img src="/light/coconut_1f965.png">');
     }
 
