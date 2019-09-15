@@ -28,7 +28,7 @@
         <div class="list-group-item">
             <!-- .list-group-item-figure -->
             <div class="list-group-item-figure">
-                <a href="user-profile.html" class="user-avatar" data-toggle="tooltip" title="" data-original-title="Tammy Beck"><img src="https://uselooper.com/assets/images/avatars/uifaces15.jpg" alt=""></a>
+                <a href="javascript:void(0)" class="user-avatar" data-toggle="tooltip" title="" data-original-title="Tammy Beck"><img src="https://uselooper.com/assets/images/avatars/uifaces15.jpg" alt=""></a>
             </div><!-- /.list-group-item-figure -->
             <!-- .list-group-item-body -->
             <div class="list-group-item-body">
@@ -45,7 +45,7 @@
         <div class="list-group-item">
             <!-- .list-group-item-figure -->
             <div class="list-group-item-figure">
-                <a href="user-profile.html" class="user-avatar" data-toggle="tooltip" title="" data-original-title="Susan Kelley"><img src="https://uselooper.com/assets/images/avatars/uifaces17.jpg" alt=""></a>
+                <a href="javascript:void(0)" class="user-avatar" data-toggle="tooltip" title="" data-original-title="Susan Kelley"><img src="https://uselooper.com/assets/images/avatars/uifaces17.jpg" alt=""></a>
             </div><!-- /.list-group-item-figure -->
             <!-- .list-group-item-body -->
             <div class="list-group-item-body">
@@ -62,7 +62,7 @@
         <div class="list-group-item">
             <!-- .list-group-item-figure -->
             <div class="list-group-item-figure">
-                <a href="user-profile.html" class="user-avatar" data-toggle="tooltip" title="" data-original-title="Albert Newman"><img src="https://uselooper.com/assets/images/avatars/uifaces18.jpg" alt=""></a>
+                <a href="javascript:void(0)" class="user-avatar" data-toggle="tooltip" title="" data-original-title="Albert Newman"><img src="https://uselooper.com/assets/images/avatars/uifaces18.jpg" alt=""></a>
             </div><!-- /.list-group-item-figure -->
             <!-- .list-group-item-body -->
             <div class="list-group-item-body">
@@ -79,7 +79,7 @@
         <div class="list-group-item">
             <!-- .list-group-item-figure -->
             <div class="list-group-item-figure">
-                <a href="user-profile.html" class="user-avatar" data-toggle="tooltip" title="" data-original-title="Kyle Grant"><img src="https://uselooper.com/assets/images/avatars/uifaces19.jpg" alt=""></a>
+                <a href="javascript:void(0)" class="user-avatar" data-toggle="tooltip" title="" data-original-title="Kyle Grant"><img src="https://uselooper.com/assets/images/avatars/uifaces19.jpg" alt=""></a>
             </div><!-- /.list-group-item-figure -->
             <!-- .list-group-item-body -->
             <div class="list-group-item-body">
