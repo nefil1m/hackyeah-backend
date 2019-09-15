@@ -6,6 +6,6 @@
 </head>
 <body>
 <h1>This should go to NodeJs</h1>
-
+<script>window.location.href = '/'</script>
 </body>
 </html>
