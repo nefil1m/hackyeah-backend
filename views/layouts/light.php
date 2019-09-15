@@ -66,14 +66,8 @@
                     </a>
                 </li>
                 <li>
-                    <a class="nav-link" href="/site/promotions">
+                    <a class="nav-link" href="/site/rewards">
                         <i class="nc-icon nc-paper-2"></i>
-                        <p>Promotions</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="nav-link" href="./site/rewards">
-                        <i class="nc-icon nc-atom"></i>
                         <p>Rewards</p>
                     </a>
                 </li>
