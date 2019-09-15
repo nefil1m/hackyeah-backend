@@ -155,7 +155,7 @@ class SiteController extends Controller
         return $this->render('profile');
     }
 
-    public function actionPromotions()
+    public function actionAwarness()
     {
         return $this->renderContent('<img src="/light/coconut_1f965.png">');
 
