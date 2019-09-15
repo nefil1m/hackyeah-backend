@@ -7,7 +7,7 @@ use yii\widgets\ActiveForm;
 <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]) ?>
 
 
-    <div class="card" style="">
+    <div class="card" style="margin-top: 100px">
         <div class="card-body">
             <h5 class="card-title">QR Scanning</h5>
             <p class="card-text">Scan QR code to get user profile</p>
